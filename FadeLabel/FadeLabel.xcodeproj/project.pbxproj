@@ -220,6 +220,7 @@
 				TargetAttributes = {
 					1F44743C1BF32345009F7621 = {
 						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = SK8LZNXD8J;
 					};
 					1F4474551BF32345009F7621 = {
 						CreatedOnToolsVersion = 7.1;
@@ -425,6 +426,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = FadeLabel/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = daiyanwang.FadeLabel;
@@ -436,6 +438,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = FadeLabel/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = daiyanwang.FadeLabel;
@@ -510,6 +513,7 @@
 				1F44746C1BF32345009F7621 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1F44746D1BF32345009F7621 /* Build configuration list for PBXNativeTarget "FadeLabelTests" */ = {
 			isa = XCConfigurationList;
@@ -518,6 +522,7 @@
 				1F44746F1BF32345009F7621 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1F4474701BF32345009F7621 /* Build configuration list for PBXNativeTarget "FadeLabelUITests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +531,7 @@
 				1F4474721BF32345009F7621 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
