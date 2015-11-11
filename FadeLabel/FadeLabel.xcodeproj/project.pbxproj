@@ -15,6 +15,7 @@
 		1F4474501BF32345009F7621 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F44744E1BF32345009F7621 /* LaunchScreen.storyboard */; };
 		1F44745B1BF32345009F7621 /* FadeLabelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F44745A1BF32345009F7621 /* FadeLabelTests.m */; };
 		1F4474661BF32345009F7621 /* FadeLabelUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F4474651BF32345009F7621 /* FadeLabelUITests.m */; };
+		1F4474761BF323B8009F7621 /* FadeLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F4474751BF323B8009F7621 /* FadeLabel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		1F4474611BF32345009F7621 /* FadeLabelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FadeLabelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F4474651BF32345009F7621 /* FadeLabelUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FadeLabelUITests.m; sourceTree = "<group>"; };
 		1F4474671BF32345009F7621 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F4474741BF323B8009F7621 /* FadeLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FadeLabel.h; sourceTree = "<group>"; };
+		1F4474751BF323B8009F7621 /* FadeLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FadeLabel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 		1F44743F1BF32345009F7621 /* FadeLabel */ = {
 			isa = PBXGroup;
 			children = (
+				1F4474731BF32383009F7621 /* FadeLabel */,
 				1F4474431BF32345009F7621 /* AppDelegate.h */,
 				1F4474441BF32345009F7621 /* AppDelegate.m */,
 				1F4474461BF32345009F7621 /* ViewController.h */,
@@ -138,6 +142,15 @@
 				1F4474671BF32345009F7621 /* Info.plist */,
 			);
 			path = FadeLabelUITests;
+			sourceTree = "<group>";
+		};
+		1F4474731BF32383009F7621 /* FadeLabel */ = {
+			isa = PBXGroup;
+			children = (
+				1F4474741BF323B8009F7621 /* FadeLabel.h */,
+				1F4474751BF323B8009F7621 /* FadeLabel.m */,
+			);
+			path = FadeLabel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -272,6 +285,7 @@
 			files = (
 				1F4474481BF32345009F7621 /* ViewController.m in Sources */,
 				1F4474451BF32345009F7621 /* AppDelegate.m in Sources */,
+				1F4474761BF323B8009F7621 /* FadeLabel.m in Sources */,
 				1F4474421BF32345009F7621 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
